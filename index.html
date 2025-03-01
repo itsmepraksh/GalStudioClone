@@ -1,0 +1,685 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @keyframes marqueee {
+            0% {
+                transform: translateX(100%);
+            }
+
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        @layer utility {
+            .view-1-marquee {
+                animation: marqueee 10s linear infinite;
+            }
+        }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <main class="w-full text-[#11193B] bg-[#FAF9EA] ">
+        <nav class=" w-full p-[0.25rem] lg:p-5">
+            <div class="navbar justify-center gap-4 items-center pb-10 hidden lg:flex">
+                <a class="px-6 py-1 bg-[#FAEBC5] rounded-3xl text-lg font-semibold tracking-tight">Work</a>
+                <a class="px-6 py-1 bg-[#FAEBC5] rounded-3xl text-lg font-semibold tracking-tight">Services</a>
+                <a class="px-6 py-1 bg-[#FAEBC5] rounded-3xl text-lg font-semibold tracking-tight">Meet Christine</a>
+                <a class="px-6 py-1 bg-[#FAEBC5] rounded-3xl text-lg font-semibold tracking-tight">FAQ</a>
+                <a class="px-6 py-1 bg-[#FAEBC5] rounded-3xl text-lg font-semibold tracking-tight">Get in Touch</a>
+
+            </div>
+            <h1
+                class="capitalize tracking-tighter text-center font-semibold text-[2rem] lg:text-[8.45rem] xl:text-[10.5rem]">
+                design gal studio</h1>
+        </nav>
+
+        <section class="view-1">
+            <div class="view-1-container flex flex-col gap-2  px-2 pt-4 lg:px-5 lg:gap-4 ">
+
+                <div
+                    class="view-1-elem-1 bg-[#F889E7] p-6 rounded-2xl relative overflow-hidden lg:p-8 lg:rounded-3xl xl:p-12 xl:rounded-[2.5rem]  ">
+                    <h1
+                        class="font-bold tracking-tight text-3xl lg:text-[2.5rem] lg:font-semibold lg:w-[75%] lg:leading-[1.1] xl:text-[4rem] ">
+                        Here to make you look good and win business.
+                    </h1>
+
+                    <p class="py-2 tracking-tight lg:text-lg lg:w-[45%] xl:py-4 xl:text-2xl xl:leading-relaxed">Websites
+                        that convert, and apps that feel
+                        effortless. Clean, clear, and thoughtfully
+                        designed.</p>
+
+                    <div class="mt-16">
+                        <div
+                            class="bg-[#11193B] text-white flex items-center justify-between gap-4 px-6 py-3 w-fit rounded-3xl lg:px-8 lg:py-4 xl:rounded-[2.5rem]">
+                            <h4 class="font-semibold">Get in Touch</h4>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+
+                        <div
+                            class=" h-52 w-52 absolute -bottom-12 -right-20 lg:-right-16 lg:h-72 lg:w-72 xl:h-80 xl:w-80 ">
+                            <img class="object-cover w-full h-full rotate-180 "
+                                src="https://freesvg.org/img/1310990384.png" alt="">
+                        </div>
+
+                    </div>
+                </div>
+
+                <div
+                    class="view-1-elem-2 rounded-2xl overflow-hidden aspect-[16/8] lg:aspect-[16/6] lg:rounded-3xl xl:rounded-[2.5rem] xl:aspect-[16/7]">
+                    <img class="h-full w-full object-cover" src="./assets/images/sQg7GSarPJc6AwCw87h5jbShME.png" alt="">
+                </div>
+
+                <div
+                    class="view-1-elem-3 flex items-center gap-4 bg-[#D8D800] p-8  overflow-hidden rounded-2xl lg:rounded-3xl xl:rounded-[2.5rem]">
+
+                    <div class="view-1-marquee  flex items-center gap-4 whitespace-nowrap  xl:gap-8">
+                        <div class="elem-3-img w-32 mr-8">
+                            <img src="./assets/images/DfYEWm3YqDWN1yJi9GB1sHQws.png" alt="">
+                        </div>
+                        <div class="elem-3-img w-32 mr-8">
+                            <img src="./assets/images/5Sf0BNRToHXts9nmrZvqPDv1j4.png" alt="">
+                        </div>
+                        <div class="elem-3-img w-32 mr-8">
+                            <img src="./assets/images/DfYEWm3YqDWN1yJi9GB1sHQws.png" alt="">
+                        </div>
+                        <div class="elem-3-img w-32 mr-8">
+                            <img src="./assets/images/5Sf0BNRToHXts9nmrZvqPDv1j4.png" alt="">
+                        </div>
+
+                    </div>
+
+
+                    <div class="view-1-marquee  flex items-center gap-4 whitespace-nowrap  xl:gap-8">
+                        <div class="elem-3-img w-32 mr-8">
+                            <img src="./assets/images/DfYEWm3YqDWN1yJi9GB1sHQws.png" alt="">
+                        </div>
+                        <div class="elem-3-img w-32 mr-8">
+                            <img src="./assets/images/5Sf0BNRToHXts9nmrZvqPDv1j4.png" alt="">
+                        </div>
+                        <div class="elem-3-img w-32 mr-8">
+                            <img src="./assets/images/DfYEWm3YqDWN1yJi9GB1sHQws.png" alt="">
+                        </div>
+                        <div class="elem-3-img w-32 mr-8">
+                            <img src="./assets/images/5Sf0BNRToHXts9nmrZvqPDv1j4.png" alt="">
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="view-1-elem-4 ">
+                    <div class="elem-4-containter flex flex-col gap-2  lg:flex-row lg:gap-4">
+
+                        <div
+                            class="elem-4-a flex gap-6 items-center bg-[#FFDF2B] p-6 rounded-2xl lg:rounded-3xl lg:flex-col xl:rounded-[2.5rem] xl:flex-row">
+                            <div class="elem-4-a-img w-1/2 lg:w-1/4 ">
+                                <img class="rounded-full" src="./assets/images/Y4LtrTecZLh04Nlk6MEpdCnhpo0.jpg" alt="">
+                            </div>
+                            <div class="elem-4-a-detail lg:text-center xl:text-left">
+                                <h1 class="font-bold">Home of Christine Maggi</h1>
+                                <p class="mt-2 lg:mt-1 lg:text-sm">An independent digital designer in sunny California.
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="elem-4-a flex gap-6 items-center bg-[#FFDF2B] p-6 rounded-2xl lg:rounded-3xl lg:flex-col xl:rounded-[2.5rem] xl:flex-row ">
+                            <div class="elem-4-a-img w-1/2 lg:w-1/4 ">
+                                <img class="rounded-full" src="./assets/images/Y4LtrTecZLh04Nlk6MEpdCnhpo0.jpg" alt="">
+                            </div>
+                            <div class="elem-4-a-detail lg:text-center xl:text-left">
+                                <h1 class="font-bold">Web Design & Dev</h1>
+                                <p class="mt-2 lg:mt-1 lg:text-sm">Clean, conversion-focused, and built for easy
+                                    updates.</p>
+                            </div>
+                        </div>
+                        <div
+                            class="elem-4-a flex gap-6 items-center bg-[#FFDF2B] p-6 rounded-2xl lg:rounded-3xl lg:flex-col xl:rounded-[2.5rem] xl:flex-row ">
+                            <div class="elem-4-a-img w-1/2 lg:w-1/4 ">
+                                <img class="rounded-full" src="./assets/images/Y4LtrTecZLh04Nlk6MEpdCnhpo0.jpg" alt="">
+                            </div>
+                            <div class="elem-4-a-detail lg:text-center xl:text-left">
+                                <h1 class="font-bold">UI/UX Design</h1>
+                                <p class="mt-2 lg:mt-1 lg:text-sm">Seamless web or mobile app design to wow your users.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="view-2">
+
+            <div class="view-2-container flex flex-col gap-2  px-2 pt-16 lg:px-5 lg:gap-4">
+
+                <div
+                    class="view-2-elem-1 bg-[#FAEBC5] p-6 rounded-2xl relative overflow-hidden lg:p-8 lg:rounded-3xl xl:rounded-[2.5rem]">
+                    <h1
+                        class="font-semibold tracking-tight w-1/2 text-3xl lg:text-[2.5rem] lg:font-semibold lg:w-[75%] lg:leading-[1.1]">
+                        Design is in the details.
+                    </h1>
+
+                    <p class="py-2 text-sm tracking-tight mt-[3rem] lg:text-lg lg:w-[65%]">My work is based on timeless
+                        design principles, clear
+                        copywriting, and well-established UX patterns. Each design is carefully crafted to meet your
+                        goals, tell
+                        your story, and make your business look awesome.</p>
+
+
+
+                    <div class=" w-3/5 absolute -top-12 -right-24 lg:-right-16 lg:h-72 lg:w-72 lg:top-12 ">
+                        <img class="object-cover w-full h-full rotate-180 "
+                            src="https://cdn-icons-png.flaticon.com/512/2567/2567065.png" alt="">
+                    </div>
+
+
+                </div>
+
+                <div class="view-2-elem-2 ">
+                    <div
+                        class="view-2-container px-4 pt-4 rounded-2xl overflow-hidden bg-[#D3A7F2] lg:px-8 lg:pt-8 lg:flex lg:justify-between lg:gap-4">
+
+                        <div class="view-2-container-a lg:aspect-[16/9] ">
+
+                            <img class="rounded-t-lg  h-full w-full object-cover object-[20%_1%]"
+                                src="./assets/images/rfBUBDMStZ6uYfIFYPlhn9er7w.jpg" alt="">
+                        </div>
+
+
+                        <div class="view-2-container-b lg:aspect-[2/1] pt-16 hidden lg:block" >
+                            <img class="h-full w-full object-cover rounded-t-lg object-[20%_1%]"
+                                src="https://framerusercontent.com/images/Ljnr5jpWsplvkPJg7eEWp7CH3Ig.jpg?scale-down-to=2048"
+                                alt="">
+                        </div>
+
+
+
+
+                    </div>
+
+
+                    <div class="view-2-elem-a hidden lg:flex items-center justify-between py-4">
+                        <h1 class="font-bold text-lg">Parenting App Site</h1>
+
+                        <div class="flex gap-2 ">
+                            <p class="px-4 py-2 bg-[#FAEBC5] rounded-3xl">Web Design</p>
+                            <p class="px-4 py-2 bg-[#FAEBC5] rounded-3xl">AI</p>
+                            <p class="px-4 py-2 bg-[#FAEBC5] rounded-3xl">Parenthood</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="view-2-elem-3 ">
+
+                    <div
+                    class="view-2-container px-4 pt-4 rounded-2xl overflow-hidden bg-[#C71E70] lg:px-8 lg:pt-8 lg:flex lg:justify-between lg:gap-4">
+
+                    <div class="view-2-container-a lg:aspect-[16/9] ">
+
+                        <img class="rounded-t-lg  h-full w-full object-cover object-[20%_1%]"
+                            src="./assets/images/5iJDvfm5rvz1VECTQpWxjWTqR4.png" alt="">
+                    </div>
+
+
+                    <div class="view-2-container-b lg:aspect-[2/1.5] pt-16 hidden lg:block" >
+                        <img class="h-full w-full object-cover rounded-t-lg object-[20%_1%]"
+                            src="https://framerusercontent.com/images/0AU0wSc7z9ZRPvhQ3ivzSfPMo.jpg?scale-down-to=2048"
+                            alt="">
+                    </div>
+
+
+
+
+                </div>
+ 
+
+
+                    <div class="view-2-elem-a hidden lg:flex items-center justify-between py-4">
+                        <h1 class="font-bold text-lg">Meal Delivery Site</h1>
+
+                        <div class="flex gap-2 ">
+                            <p class="px-4 py-2 bg-[#FAEBC5] rounded-3xl">Web Design</p>
+                            <p class="px-4 py-2 bg-[#FAEBC5] rounded-3xl">Copywriting</p>
+                            <p class="px-4 py-2 bg-[#FAEBC5] rounded-3xl">Food</p>
+                            <p class="px-4 py-2 bg-[#FAEBC5] rounded-3xl">Sustainability</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="view-2-elem-4 ">
+
+                    
+                    <div
+                        class="view-2-container px-4 pt-4 rounded-2xl overflow-hidden bg-[#0081C6] lg:px-8 lg:pt-8 lg:flex lg:justify-between lg:gap-4">
+
+                        <div class="view-2-container-a lg:aspect-[16/9] ">
+
+                            <img class="rounded-t-lg  h-full w-full object-cover object-[20%_1%]"
+                                src="./assets/images/wu3uvYqaJGBdnfrQjj7bWaQWLs.jpg" alt="">
+                        </div>
+
+
+                        <div class="view-2-container-b lg:aspect-[2/1] pt-16 hidden lg:block" >
+                            <img class="h-full w-full object-cover rounded-t-lg object-[20%_1%]"
+                                src="	https://framerusercontent.com/images/XiHoOnC3BFpNYqwCdMrf7ynpjk.jpg"
+                                alt="">
+                        </div>
+
+                    </div>
+
+
+                    <div class="view-2-elem-a hidden lg:flex items-center justify-between py-4">
+                        <h1 class="font-bold text-lg">Modern Law Firm Site</h1>
+
+                        <div class="flex gap-2 ">
+                            <p class="px-4 py-2 bg-[#FAEBC5] rounded-3xl">Web Design</p>
+                            <p class="px-4 py-2 bg-[#FAEBC5] rounded-3xl">Brand Refresh</p>
+                            <p class="px-4 py-2 bg-[#FAEBC5] rounded-3xl">Legal Services</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="view-2-elem-5 ">
+
+                    
+                    <div
+                        class="view-2-container px-4 pt-4 rounded-2xl overflow-hidden bg-[#E3AA1F] lg:px-8 lg:pt-8 lg:flex lg:justify-between lg:gap-4">
+
+                        <div class="view-2-container-a lg:aspect-[16/9] ">
+
+                            <img class="rounded-t-lg  h-full w-full object-cover object-[20%_1%]"
+                                src="./assets/images/nfC9RN5anXbHTRmMgJEEJfPZTgw.jpg" alt="">
+                        </div>
+
+
+                        <div class="view-2-container-b lg:aspect-[2/1] pt-16 hidden lg:block" >
+                            <img class="h-full w-full object-cover rounded-t-lg object-[20%_1%]"
+                                src="https://framerusercontent.com/images/TUe64mqgCFEXoo0zQga24YO8QU.jpg?scale-down-to=1024"
+                                alt="">
+                        </div>
+
+
+
+
+                    </div>
+
+
+                    <!-- <div
+                        class="view-2-container px-4 pt-4 rounded-2xl overflow-hidden bg-[#E3AA1F] lg:px-8 lg:pt-8 lg:h-96 lg:">
+                        <img class="rounded-t-lg  " src="./assets/images/nfC9RN5anXbHTRmMgJEEJfPZTgw.jpg" alt="">
+ 
+                    </div> -->
+                    <div class="view-2-elem-a hidden lg:flex items-center justify-between py-4">
+                        <h1 class="font-bold text-lg">Sustainable Goods Site</h1>
+
+                        <div class="flex gap-2 ">
+                            <p class="px-4 py-2 bg-[#FAEBC5] rounded-3xl">Web Design</p>
+                            <p class="px-4 py-2 bg-[#FAEBC5] rounded-3xl">Copywriting</p>
+                            <p class="px-4 py-2 bg-[#FAEBC5] rounded-3xl">D2C</p>
+                            <p class="px-4 py-2 bg-[#FAEBC5] rounded-3xl">Sustainability</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="view-3 px-2 py-8 lg:py-16 lg:px-5">
+            <div
+                class="view-3-container bg-[#FAEBC5] flex flex-col gap-2 rounded-2xl py-8 lg:rounded-3xl xl:rounded-[2.5rem] lg:px-6 lg:py-20 ">
+
+                <div class="view-3-container-1 text-center flex flex-col items-center">
+                    <p class=" py-12 lg:text-lg">Let's take a step back for a sec.</p>
+                    <h1 class="text-3xl font-semibold px-4 lg:text-4xl lg:w-1/2">You're here because something isn't
+                        working.</h1>
+
+                    <div
+                        class="view-3-elem flex flex-nowrap gap-4 p-4 my-10 overflow-x-auto w-full lg:flex-wrap lg:justify-center ">
+                        <p class="p-6 bg-[#FEADD2] rounded-2xl shrink-0 w-[98%] lg:w-[45%] ">Your website isn't
+                            convincing enough
+                            customers to buy, and you're leaving money on the table.</p>
+                        <p class="p-6 bg-[#FFBE81] rounded-2xl shrink-0 w-[98%] lg:w-[45%] ">You aren't clearly telling
+                            your story,
+                            and your customers are confused about what to do next.</p>
+                        <p class="p-6 bg-[#FFBE81] rounded-2xl shrink-0 w-[98%] lg:w-[45%] ">Your website isn't
+                            communicating the
+                            high value of your business or attracting the right customers.</p>
+                        <p class="p-6 bg-[#FEADD2] rounded-2xl shrink-0 w-[98%] lg:w-[45%] ">Your web or mobile app is
+                            has low
+                            engagement and your users aren't signing up or sticking around.</p>
+                    </div>
+                </div>
+
+                <div class="view-3-container-2 ">
+                    <p class=" py-12 text-center px-10 lg:text-lg ">I get it. You're in the right place. Here's how I
+                        can help:</p>
+
+                    <div class="view-3-elem-a lg:mx-10">
+                        <div class="view-3-container-2-a px-3 ">
+                            <div class="elem-a-1 flex justify-between  gap-2 ">
+                                <h1 class="bg-[#D8D800] text-center font-bold rounded-t-2xl px-4 py-4 lg:w-1/2">Web
+                                    Design & Dev</h1>
+                                <h1 class="bg-[#FFDF2B] text-center font-bold rounded-t-2xl px-4 py-4 lg:w-1/2">Product
+                                    Design</h1>
+                            </div>
+
+                            <div class="elem-a-2 bg-[#D8D800] px-8 py-6 flex  flex-wrap gap-4 lg:py-12 lg:gap-10 ">
+
+                                <div class="view-3-elem w-[45%]  flex flex-col justify-center items-center">
+                                    <div class="bg-white flex  h-12 w-12 rounded-full p-2">
+                                        <img class="aspect-[1/1] "
+                                            src="https://www.svgrepo.com/show/353823/google-optimize.svg" alt="">
+                                    </div>
+                                    <p class="text-sm pt-4 text-center">Optimized for conversions</p>
+                                </div>
+                                <div class="view-3-elem w-[45%]  flex flex-col justify-center items-center">
+                                    <div class="bg-white flex h-12 w-12  rounded-full p-2">
+                                        <img class="aspect-[1/1] " src="https://www.svgrepo.com/show/466760/update.svg"
+                                            alt="">
+                                    </div>
+                                    <p class="text-sm pt-4 text-center">Built for easy updates</p>
+                                </div>
+                                <div class="view-3-elem w-[45%]  flex flex-col justify-cente items-center">
+                                    <div class="bg-white flex h-12 w-12  rounded-full p-2">
+                                        <img class="aspect-[1/1] " src="https://www.svgrepo.com/show/15451/website.svg"
+                                            alt="">
+                                    </div>
+                                    <p class="text-sm pt-4 text-center">Streamlined content structure</p>
+                                </div>
+                                <div class="view-3-elem w-[45%]  flex flex-col justify-center items-center">
+                                    <div class="bg-white flex h-12 w-12  rounded-full p-2">
+                                        <img class="aspect-[1/1] " src="https://www.svgrepo.com/show/228038/story.svg"
+                                            alt="">
+                                    </div>
+                                    <p class="text-sm pt-4 text-center">Clear, effective storytelling</p>
+                                </div>
+                                <div class="view-3-elem w-[45%]  flex flex-col justify-center items-center">
+                                    <div class="bg-white flex h-12 w-12  rounded-full p-2">
+                                        <img class="aspect-[1/1] " src="https://www.svgrepo.com/show/7645/paint.svg"
+                                            alt="">
+                                    </div>
+                                    <p class="text-sm pt-4 text-center">Add-on a brand refresh</p>
+                                </div>
+                                <div class="view-3-elem w-[45%]  flex flex-col justify-center items-center">
+                                    <div class="bg-white flex h-12 w-12  rounded-full p-2">
+                                        <img class="aspect-[1/1] "
+                                            src="https://www.svgrepo.com/show/457292/customize.svg" alt="">
+                                    </div>
+                                    <p class="text-sm pt-4 text-center">Customized to your goals</p>
+                                </div>
+                            </div>
+
+                            <div class="elem-a-3 bg-[#D8D800] py-4 pb-10 rounded-b-2xl">
+                                <h2 class="text-center font-bold py-6">It's all smooth scrolling from here.</h2> 
+
+                                <div
+                                    class="border-[#11193B] border-2 flex items-center justify-center gap-4 px-8 py-3 mx-8 rounded-3xl lg:px-8 lg:py-4">
+                                    <h4 class="font-bold">Get in Touch</h4>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section class="view-4 px-2 py-12 lg:px-5  ">
+            <div class="view-4-container flex flex-col gap-2 lg:gap-4">
+                <div class="view-4-elem-1 aspect-[2/1.5] overflow-hidden rounded-2xl lg:aspect-[2/0.81] ">
+                    <img class="h-full w-full object-cover object-center lg:object-[10%_15%]"
+                        src="./assets/images/jSXH5hdHwLpIfaw6hZGfswwmEA.jpg" alt="">
+                </div>
+
+                <div
+                    class="view-4-elem-2 bg-[#FFDF2B] p-6 rounded-2xl relative overflow-hidden lg:p-8 lg:rounded-3xl xl:rounded-[2.5rem]">
+
+                    <div class="elem-2-a">
+                        <h1
+                            class="font-semibold tracking-tighter   text-2xl lg:text-[2.5rem] lg:font-semibold lg:w-[75%] lg:leading-[1.1]">
+                            Nice to meet you!</h1>
+                        <p class="pt-2 tracking-tighter lg:text-lg lg:tracking-tight">I'm Christine Maggi, a.k.a. Design
+                            Gal</p>
+                    </div>
+
+                    <p class="py-2  tracking-tighter mt-[3rem] lg:  lg:w-[75%]"> My goal is to elevate
+                        companies like yours through the power of design. I am here to help you effectively convey
+                        your message and make a positive impact. Let's bring your vision to life!</p>
+
+
+
+                    <div class=" w-3/5 absolute -top-12 -right-32 lg:-right-16 lg:h-72 lg:w-72 lg:top-12 ">
+                        <img class="object-cover w-full h-full rotate-180 "
+                            src="https://cdn-icons-png.flaticon.com/512/2567/2567065.png" alt="">
+                    </div>
+
+
+                </div>
+
+                <div class="view-4-elem-3 flex flex-col gap-2 lg:flex-row lg:gap-4">
+                    <div
+                        class="elem-3-a  bg-[#EEEE39] p-6 rounded-2xl relative overflow-hidden lg:p-8 lg:rounded-3xl xl:rounded-[2.5rem]">
+                        <h1
+                            class="font-semibold tracking-tighter w-3/4  text-2xl lg:text-[1.5rem] lg:font-semibold lg:w-full lg:leading-[1.1]">
+                            The perfect blend of visual design and UX.</h1>
+                        <p class="py-2  tracking-tight mt-[3rem] lg:text-lg lg:w-full">With 15 years of
+                            multi-disciplinary design experience, I blend beautiful visual design and the clarity of UX,
+                            all under one roof</p>
+                    </div>
+                    <div
+                        class="elem-3-b  bg-[#FEADD2] p-6 rounded-2xl relative overflow-hidden lg:p-8 lg:rounded-3xl xl:rounded-[2.5rem]">
+                        <h1
+                            class="font-semibold tracking-tighter w-3/4  text-2xl lg:text-[1.5rem] lg:font-semibold lg:w-full lg:leading-[1.1]">
+                            A true design partner you can trust.</h1>
+                        <p class="py-2  tracking-tight mt-[3rem] lg:text-lg lg:w-full">I won't let you down. You can
+                            rely on me to communicate regularly, deliver on time, and provide real value to your
+                            business.</p>
+                    </div>
+                </div>
+
+                <div
+                    class="view-4-elem-4 flex flex-col items-center justify-center gap-5 bg-[#FAEBC5] rounded-2xl p-4 lg:flex-row  ">
+                    <div class="w-full text-center flex flex-col items-center py-12 gap-4 lg:text-left lg:px-4 ">
+                        <h1 class="font-semibold text-3xl w-[80%] lg:w-full">Elevating <br class="lg:hidden"> your
+                            mission through the power of design.</h1>
+                        <p class="text-sm w-[85%] lg:w-full">I serve mission-driven startups that take care. My favorite
+                            industries include health and wellness, food and bev, sustainability, femtech, and pets.</p>
+                    </div>
+                    <div class="aspect-[1/1] lg:aspect-[1/0.5]">
+                        <img class="h-4/5 w-4/5 object-cover"
+                            src="https://www.svgrepo.com/show/288751/balloons-balloon.svg" alt="">
+                    </div>
+                </div>
+
+                <div
+                    class="view-4-elem-5 bg-[#D8D800] rounded-2xl flex flex-col items-center justify-center gap-6 p-8 lg:justify-between lg:flex-row">
+                    <h1 class="text-2xl tracking-tight font-semibold">Ready to get started?</h1>
+
+                    <div
+                        class="bg-[#EEEE39] font-bold flex items-center justify-between gap-4 px-8 py-4 w-fit rounded-3xl lg:px-8 lg:py-4">
+                        <h4 class="">Get in Touch</h4>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="view-5 pt-12">
+
+            <div
+                class="view-5-container px-2 flex flex-col gap-2 rounded-2xl lg:rounded-3xl xl:rounded-[2.5rem] lg:px-6 ">
+
+                <div class="view-5-container-1 flex flex-col   ">
+                    <h1 class="text-4xl font-semibold tracking-tight lg:text-5xl ">Happy Clients</h1>
+
+                    <div
+                        class="view-5-elem flex flex-nowrap  gap-4 p-1 my-10 overflow-x-auto w-full lg:flex-wrap lg:justify-center ">
+                        <div class="p-6 bg-[#FFDF2B] rounded-2xl shrink-0 w-full lg:w-[49%] xl:rounded-[2.5rem] ">
+                            <p>Christine approached the strategy first, eliminating the potential for additional rounds
+                                of reviews and revisions. <span class="font-bold">1 recommend working with her for
+                                    creative design solutions
+                                    that convert.</span></p>
+
+                            <div class="mt-8">
+                                <p>Ryan Tarvin</p>
+                                <p>Founder, Kobase</p>
+                            </div>
+                        </div>
+                        <div class="p-6 bg-[#FEADD2] rounded-2xl shrink-0 w-full lg:w-[49%] xl:rounded-[2.5rem]  ">
+                            <p>Christine was responsive, attentive, and fantastic to work with. She understood our
+                                problem, was receptive to our ideas, and <span class="font-bold">delivered a beautiful
+                                    product on time and in budget.</span></p>
+
+                            <div class="mt-8">
+                                <p>Joe Cody</p>
+                                <p>Founder, Grain Fertility</p>
+                            </div>
+                        </div>
+                        <div class="p-6 bg-[#FF9999] rounded-2xl shrink-0 w-full lg:w-[49%] xl:rounded-[2.5rem] ">
+                            <p>Christine was very patient and easy to work with. <span class="font-bold"> I found she
+                                    really listened</span> to how we wanted our image projected. She nailed it! I would
+                                highly recommend Christine for your next project.</p>
+
+                            <div class="mt-8">
+                                <p>Stephanie Frederic</p>
+                                <p>Owner, South Sea Properties</p>
+                            </div>
+                        </div>
+                        <div class="p-6 bg-[#D8D800] rounded-2xl shrink-0 w-full lg:w-[49%] xl:rounded-[2.5rem] ">
+                            <p>Christine is <span class="font-bold">one of the most creatively talented and business
+                                    savvy design pros</span> I've worked with. She was my go-to partner on nearly all
+                                projects. I can't recommend Christine enough.</p>
+
+                            <div class="mt-8">
+                                <p>Brian Trapp</p>
+                                <p>eCommerce and Marketing Director</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="view-6">
+            <div
+                class="view-6-container px-2 flex flex-col gap-2 rounded-2xl lg:rounded-3xl xl:rounded-[2.5rem] lg:px-6 ">
+
+
+                <h1 class="text-4xl font-semibold tracking-tight lg:text-5xl ">FAQs</h1>
+
+                <div class="view-6-container-a flex flex-col gap-2 py-8 lg:gap-4">
+                    <div
+                        class="view-6-elem flex items-center justify-between bg-[#FAEBC5] p-4 rounded-2xl text-lg font-bold lg:text-xl lg:px-8 lg:py-6 lg:rounded-3xl ">
+                        <p class="w-[80%]">Why should I work with you?</p>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div
+                        class="view-6-elem flex items-center justify-between bg-[#FAEBC5] p-4 rounded-2xl text-lg font-bold lg:text-xl lg:px-8 lg:py-6 lg:rounded-3xl  ">
+                        <p class="w-[80%]">How much do your services cost?</p>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div
+                        class="view-6-elem flex items-center justify-between bg-[#FAEBC5] p-4 rounded-2xl text-lg font-bold lg:text-xl lg:px-8 lg:py-6 lg:rounded-3xl ">
+                        <p class="w-[80%]">Do you offer any packages?</p>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div
+                        class="view-6-elem flex items-center justify-between bg-[#FAEBC5] p-4 rounded-2xl text-lg font-bold lg:text-xl lg:px-8 lg:py-6 lg:rounded-3xl ">
+                        <p class="w-[80%]">What UX services do you provide?</p>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div
+                        class="view-6-elem flex items-center justify-between bg-[#FAEBC5] p-4 rounded-2xl text-lg font-bold lg:text-xl lg:px-8 lg:py-6 lg:rounded-3xl ">
+                        <p class="w-[80%]">Can yu also do?</p>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div
+                        class="view-6-elem flex items-center justify-between bg-[#FAEBC5] p-4 rounded-2xl text-lg font-bold lg:text-xl lg:px-8 lg:py-6 lg:rounded-3xl ">
+                        <p class="w-[80%]">How do we get started?</p>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section class="view-7 p-2 lg:px-6">
+            <div class="view-7-container bg-[#FF9D65] rounded-2xl p-4 lg:p-8 lg:rounded-3xl xl:rounded-[2.5rem]">
+
+                <div class="view-7-container-a flex justify-between">
+
+                    <div class="view-7-elem-a w-[65%] ">
+                        <h1 class="text-4xl font-semibold tracking-tighter lg:text-5xl">Thanks for stopping by!</h1>
+                        <p class="py-2 text-sm lg:text-lg lg:py-4 lg:w-2/3">I'd love to chat with you about how I can
+                            help. Get in touch!</p>
+                    </div>
+
+                    <div
+                        class="view-7-elem-b h-16 w-16 rounded-full overflow-hidden border-2 lg:h-20 lg:w-20 border-[#FFDF2B]">
+                        <img class="object-cover h-full w-full" src="./assets/images/Y4LtrTecZLh04Nlk6MEpdCnhpo0.jpg"
+                            alt="">
+                    </div>
+                </div>
+
+                <div class="view-7-container-b flex flex-col gap-2 pt-8 text-sm font-bold lg:text-xl lg:gap-4 lg:pt-20">
+                    <div
+                        class="view-7-elem-c p-4 bg-[#FFDF2B] rounded-xl flex justify-between items-center lg:rounded-2xl md:flex-row-reverse  ">
+
+                        <div
+                            class="flex gap-3 items-center justify-between w-full  md:flex-row-reverse md:justify-normal">
+                            <p class="  lg:text-sm">christine@designgal.studio</p>
+                            <p class="text-xs bg-[#D096DF] py-1 text-white px-3 rounded-2xl">Copy</p>
+
+
+                        </div>
+                        <p class="hidden md:block">Email</p>
+                    </div>
+
+
+                    <div
+                        class="view-7-elem-c p-4 bg-[#FFDF2B] rounded-xl flex justify-between items-center lg:rounded-2xl">
+                        <p class="">Send a Message</p>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                    <div
+                        class="view-7-elem-c p-4 bg-[#FFDF2B] rounded-xl flex justify-between items-center lg:rounded-2xl">
+                        <p class="">Linkedin</p>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                    <div
+                        class="view-7-elem-c p-4 bg-[#FFDF2B] rounded-xl flex justify-between items-center lg:rounded-2xl  ">
+                        <p class="">Back to Top</p>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
+
+    </main>
+</body>
+
+</html>
