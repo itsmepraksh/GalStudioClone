@@ -20,6 +20,24 @@ body{
     font-family: desigz;
 }
 
+
+
+@keyframes marqueee {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@layer utility {
+    .view-1-marquee {
+        animation: marqueee 10s linear infinite;
+    }
+}
+
 // main{
 //     .view-3{
 //         .view-3-container-2{
