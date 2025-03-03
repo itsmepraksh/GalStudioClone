@@ -1,6 +1,6 @@
 @font-face {
   font-family: desigz;
-  src: url(./assets/fonts/_Xms-HUzqDCFdgfMm4S9DQ.woff2);
+  src: url(./assets/fonts/_Xms-HUzqDCFdgfMm4S9DQ.woff2) format("woff2");
 }
 * {
   box-sizing: border-box;
